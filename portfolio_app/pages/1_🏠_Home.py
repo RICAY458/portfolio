@@ -1,9 +1,6 @@
 import streamlit as st
 import os
 
-# 1. NEW PATH LOGIC
-# Since the image is now in the SAME folder as this script (pages folder),
-# we do NOT use ".." to go up. We look directly in the current directory.
 current_dir = os.path.dirname(__file__) 
 img_path = os.path.join(current_dir, "MYID2.png")
 
@@ -45,6 +42,8 @@ with col1:
         # This will tell you if the file name is wrong or missing in 'pages'
         st.error(f"Image not found in pages folder: {img_path}")
 
+st.divider()
+
 with col2:
     st.markdown("""
     ### Hi, I'm Rica Mae Sinogbujan👋!
@@ -55,18 +54,3 @@ with col2:
     🚀 Explore my portfolio using the sidebar!
     """)
 st.divider()
-
-# Feature Cards
-col1, col2, col3, col4 = st.columns(4)
-
-with col1:
-    st.markdown('<div class="card">👤 <b> About Me</b><br>Explore to know more about me</div>', unsafe_allow_html=True)
-
-with col2:
-    st.markdown('<div class="card">🛠️ <b>Skills</b><br>My technical stack</div>', unsafe_allow_html=True)
-
-with col3:
-    st.markdown('<div class="card">💻 <b>Projects</b><br>Explore my work</div>', unsafe_allow_html=True)
-
-with col4:
-    st.markdown('<div class="card">📩 <b>Contact</b><br>Reach me easily</div>', unsafe_allow_html=True)
