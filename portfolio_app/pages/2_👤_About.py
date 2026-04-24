@@ -33,39 +33,27 @@ st.markdown("""
 st.subheader("🎓 Education")
 
 # --- START OF 3-COLUMN LAYOUT ---
-# We create 3 columns to hold your 3 education levels
+# We create 3 columns to hold my 3 education levels
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown("""
-        <div class="card">
-            <h4>Primary</h4>
-            <p>Calumpang Elementary School</p>
-            <p>Calumpang, Cawayan, Masbate</p>
-            <p>2006-2013</p>
-        </div>
-    """, unsafe_allow_html=True)
+    st.write("Primary")
+    st.info("Calumpang Elementary School")
+    st.info("Calumpang, Cawayan, Masbate")
+    st.info("2006-2013")
 
 with col2:
-    st.markdown("""
-        <div class="card">
-            <h4>Secondary</h4>
-            <p>Dalipe National High School</p>
-            <p>Dalipe, Cawayan, Masbate</p>
-            <p>2013-2019</p>
-        </div>
-    """, unsafe_allow_html=True)
+    st.write("Secondary")
+    st.info("Dalipe National High School")
+    st.info("Dalipe, Cawayan, Masbate")
+    st.info("2013-2019")
 
 with col3:
-    st.markdown("""
-        <div class="card">
-            <h4>Tertiary</h4> 
-            <p>DR. EMILIO B. ESPINOSA SR. MEMORIAL STATE COLLEGE OF AGRICULTURE AND TECHNOLOGY</p>
-            <p>Bachelor of Science in Computer Science</p>
-            <p>Cabitan, Mandaon, Masbate</p> 
-            <p>2023 - Present</p> 
-        </div>
-    """, unsafe_allow_html=True)
+    st.write("Tertiary")
+    st.info("DEBESMSCAT - " 
+    "Bachelor of Science in Computer Science")
+    st.info("Cabitan, Mandaon, Masbate")
+    st.info("2023 - Present")
 # --- END OF 3-COLUMN LAYOUT ---
 
 
