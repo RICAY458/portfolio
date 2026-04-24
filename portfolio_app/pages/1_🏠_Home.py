@@ -42,15 +42,8 @@ with col1:
         # This will tell you if the file name is wrong or missing in 'pages'
         st.error(f"Image not found in pages folder: {img_path}")
 
-st.divider()
-
 with col2:
-    st.markdown("""
-    ### Hi, I'm Rica Mae Sinogbujan👋!
-    I am a passionate student developer creating modern applications.
-
-    I build efficient, offline-capable systems and modern user interfaces.
-
-    🚀 Explore my portfolio using the sidebar!
-    """)
-st.divider()
+    st.info("Hi, I'm Rica Mae Sinogbujan👋!")
+    st.info("I am a passionate student developer creating modern applications.")
+    st.info("I build efficient, offline-capable systems and modern user interfaces.") 
+    st.info("🚀 Explore my portfolio using the sidebar!")
