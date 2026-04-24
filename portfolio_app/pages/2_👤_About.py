@@ -14,7 +14,7 @@ st.markdown("""
         .card {
             padding: 20px;
             border-radius: 15px;
-            background-color: #ffffff;
+            background-color: #B7C9E2;
             box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
             margin-bottom: 20px;
         }
@@ -60,8 +60,9 @@ with col3:
     st.markdown("""
         <div class="card">
             <h4>Tertiary</h4> 
-            <p>BS Computer Science</p>
-            <p>DEBESMSCAT</p> 
+            <p>DR. EMILIO B. ESPINOSA SR. MEMORIAL STATE COLLEGE OF AGRICULTURE AND TECHNOLOGY</p>
+            <p>Bachelor of Science in Computer Science</p>
+            <p>Cabitan, Mandaon, Masbate</p> 
             <p>2023 - Present</p> 
         </div>
     """, unsafe_allow_html=True)
