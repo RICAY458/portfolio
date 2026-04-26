@@ -29,6 +29,4 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("Welcome to My Professional Portfolio")
-st.write("Navigate through the sidebar to learn more about my work and skills.")
-
-st.success("Select a page above to get started about me!")
+st.write("Navigate through the sidebar to know more about my work and skills.")
