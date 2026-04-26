@@ -13,24 +13,11 @@ st.markdown("""
         [data-testid="stSidebar"] {
             background: #EBE6FF;
         }
-        
-        .card {
-            padding: 20px;
-            border-radius: 15px;
-            background-color: #ffffff;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-            height: 150px; /* Added fixed height for alignment */
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
     </style>
 """, unsafe_allow_html=True)
 
 # Header Section
-st.title("✨ My Portfolio ✨")
-st.subheader("Future Developer")
+st.title("✨ Future Developer ✨")
 
 col1, col2 = st.columns([1,2])
 
@@ -46,4 +33,3 @@ with col2:
     st.info("Hi, I'm Rica Mae Sinogbujan👋!")
     st.info("I am a passionate student developer creating modern applications.")
     st.info("I build efficient, offline-capable systems and modern user interfaces.") 
-    st.info("🚀 Explore my portfolio using the sidebar!")
