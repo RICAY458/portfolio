@@ -35,7 +35,7 @@ st.markdown("""
 st.markdown("""
     <div class="card">
         <h3>Student Grade Calculator</h3>
-        <p>A Streamlit-based tool for automating academic performance tracking.</p>
+        <p>A Streamlit-based application for managing student records and tracking academic performance.</p>
         <a href="https://studentgradescalculator.streamlit.app/" target="_blank" class="live-link">
             🚀 View Live Student Grade Calculator
         </a>
@@ -45,6 +45,6 @@ st.markdown("""
 st.markdown("""
     <div class="card">
         <h3>Home Appliances Inventory Management System</h3>
-        <p>A web digital system the business owner can track their stocks.</p>
+        <p>A web-based system that enables business owners to monitor their stock levels.</p>
     </div>
 """, unsafe_allow_html=True)
